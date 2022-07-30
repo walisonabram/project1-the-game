@@ -34,7 +34,7 @@ class Creature {
                     self.moveCreature(gameArea);
                 }, 400);
             }
-            let isAttacking = Math.floor(Math.random() * 3) === 0;
+            let isAttacking = Math.floor(Math.random() * 2) === 0;
             if (isAttacking && attack) {
                 self.moveDown();
                 self.attack();

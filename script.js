@@ -29,7 +29,7 @@ window.onload = () => {
             let self = this;
             const backGround = new Image();
             backGround.src = './images/background-image.jpg';
-            backGround.onload = function(){
+            backGround.onload = function() {
                 self.ctx.drawImage(backGround, 0, 0, 700, 400);   
             };
         },
