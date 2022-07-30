@@ -5,21 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="./attack.js" defer></script>
     <script src="./creature.js" defer></script>
     <script src="./script.js" defer></script>
     <title>The Game</title>
 </head>
 <body>
     <div class="game-intro">
-        <!-- <img src="./images/logo.png" alt="" class="logo-img" /> -->
-        <br />
-        <button id="start-button">StartGame</button>
-        <p>Use the left and right arrow to control the Mage!</p>
-        <!-- <img src="./images/arrows.png" alt="" class="arrows-img" /> -->
-      </div>
-  
-      <div id="game-board">
-        <canvas id="canvas" width="500" height="600"></canvas>
-      </div>
+      <img src="./images/eye2.png" alt="" class="logo-img" />
+      <p class="game-name">MAGE ESCAPE</p>
+      <br />
+      <p class="instruction">I. Use the left and right arrow to control the Mage!</p>
+      <p class="instruction">II. Avoid the fireballs and score points.</p>
+      <img src="./images/arrows1.png" alt="" class="arrows-img" />
+    </div>
+    <div id="game-board">
+      <canvas id="canvas" width="700" height="400"></canvas>
+    </div>
+    <div>
+      <button id="start-button">StartGame</button>
+    </div>
 </body>
 </html>
